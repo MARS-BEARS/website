@@ -1,0 +1,89 @@
+body {
+	margin: 0;
+}
+.H1 {
+	z-index: 1;
+	text-align: center;
+	font-size: 6rem;
+	background: white;
+	padding: 20px;
+	margin: 15px;
+}
+.menu {
+	z-index: 1;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+	top: 0;
+  overflow: hidden;
+  background-color: #1f1d1d;
+	width: 100%;
+	position: fixed;
+}
+.menu li {
+  float: left;
+}
+.menu li a {
+	border-bottom: 4px solid transparent;
+	color: white;
+	display: block;
+	font-size: 11px;
+	font-weight: 800;
+	line-height: 55px;
+	overflow: hidden;
+	padding-left: 12px;
+	padding-right: 12px;
+	padding-top: 2px;
+	letter-spacing: 0.3em;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+.menu li a:hover {
+  background-color: grey;
+	border-color: cyan;
+}
+.page {
+	background-color: black;
+}
+.menu p {
+	color: cyan;
+	display: block;
+	font-size: 15px;
+	font-weight: 800;
+	line-height: 25px;
+	overflow: hidden;
+	padding-left: 12px;
+	padding-right: 12px;
+	padding-top: 2px;
+	letter-spacing: 0.1em
+	text-decoration: none;
+}
+.menu img {
+	max-width: 85px;
+	max-height: 85px;
+}
+.nige{
+	max-height: 30px;
+	max-width: 30px;
+}
+h {
+	text-align: center;
+}
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+	overflow:hidden;
+	opacity: 90%
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.Video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
